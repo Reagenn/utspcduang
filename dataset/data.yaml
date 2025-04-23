@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 7
+names: ['1000', '10000', '100000', '2000', '20000', '5000', '50000']
+
+roboflow:
+  workspace: reagen
+  project: indonesia-rupiah-detection-eo1fh
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/reagen/indonesia-rupiah-detection-eo1fh/dataset/1
