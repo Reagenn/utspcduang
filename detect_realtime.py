@@ -3,7 +3,7 @@ import cv2
 import time
 
 # Load model
-model = YOLO('runs/detect/train/weights/best.pt')
+model = YOLO('runs/detect/train8/weights/best.pt')
 
 # Kelas sesuai data.yaml
 label_map = {
